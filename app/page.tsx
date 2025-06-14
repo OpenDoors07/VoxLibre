@@ -180,3 +180,9 @@ export default function Home() {
         </main>
     );
 }
+
+
+useEffect(() => {
+    console.log('SUPABASE URL:', process.env.NEXT_PUBLIC_SUPABASE_URL);
+    console.log('SUPABASE ANON KEY:', process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+}, []);
