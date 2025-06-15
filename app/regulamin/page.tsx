@@ -1,4 +1,10 @@
+
+            ...
+
+
 export default function RegulaminPage() {
+    console.log("✅ RegulaminPage załadowany");
+
     return (
         <main className="max-w-3xl mx-auto p-6">
             <h1 className="text-3xl font-bold mb-6 text-purple-700">Regulamin korzystania z VoxLibre</h1>
@@ -41,3 +47,9 @@ export default function RegulaminPage() {
         </main>
     );
 }
+
+
+
+
+console.log("Strona REGULAMIN działa");
+
